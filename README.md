@@ -1,7 +1,5 @@
 # MirrorMirror
-## Information
-Project webpage: http://www.eecs.berkeley.edu/~junyanz/projects/mirrormirror/
-
+Project webpage: http://www.eecs.berkeley.edu/~junyanz/projects/mirrormirror/  
 Contact: Jun-Yan Zhu (junyanz at eecs dot berkeley dot edu)
 
 
