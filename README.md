@@ -33,7 +33,7 @@ The code can only be used for non-commercial purposes. Please cite our paper if 
 * Download and unzip the code.
 * mkdir cbuild
 * cd cbuild
-* cmake ../
+* cmake -DCMAKE_BUILD_TYPE=Release ..
 * make
 
 
