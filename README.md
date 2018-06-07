@@ -1,6 +1,6 @@
 # MirrorMirror
-Project webpage: http://www.eecs.berkeley.edu/~junyanz/projects/mirrormirror/  
-Contact: Jun-Yan Zhu (junyanz at eecs dot berkeley dot edu)
+#### [[Project](http://efrosprojects.eecs.berkeley.edu/mirrormirror/)] [[Paper](http://efrosprojects.eecs.berkeley.edu/mirrormirror/mirrormirror.pdf)]
+Contact: Jun-Yan Zhu (junyanz at mit dot edu)
 
 
 ## Overview
@@ -59,12 +59,12 @@ Command line interface: ./MirrorMirror [-v verbose] [-m mode] [-i input_video] [
   - 0 -- learning attractive/serious svm models  
   - 1 -- expression training App  
 
--i input_video: specify the video input; if no video is specified, the program will use webcam.  
+-i input_video: specify the video input; if no video is specified, the program will use a webcam.  
 
 -s save_dir: specify the directory where the results will be saved.  
 
 data_file: set the directory/path of the input data:  
-- if m = 0, data_file specifies the directory of images and scores used for svm training;
+- if m = 0, data_file specifies the directory of images and scores used for SVM training;
 - if m = 1, data_file is the path of the selected target expression.  
 
 model_dir: set the directory for svm models.
@@ -74,7 +74,7 @@ model_dir: set the directory for svm models.
 ## User Interaction
 1. The program displays three windows:  
    - The "Target Expression" window shows the target expression selected by the user.
-   - The "Current Expression" window shows the current expression either from video or from webcam.
+   - The "Current Expression" window shows the current expression either from video or from a webcam.
    - The "MirrorMirror" window shows an aligned and a blended cross-fade between the target. It also shows the attractiveness and seriousness scores of current expression.
 
 2. User Interaction: "MirrorMirror" window takes the user's keyboard input.
