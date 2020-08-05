@@ -1,12 +1,12 @@
 # MirrorMirror
-#### [[Project](http://efrosprojects.eecs.berkeley.edu/mirrormirror/)] [[Paper](http://efrosprojects.eecs.berkeley.edu/mirrormirror/mirrormirror.pdf)]
-Contact: Jun-Yan Zhu (junyanz at mit dot edu)
+#### [Project](http://efrosprojects.eecs.berkeley.edu/mirrormirror/) | [Paper](http://efrosprojects.eecs.berkeley.edu/mirrormirror/mirrormirror.pdf)
+Contact: Jun-Yan Zhu (junyanz at cs dot cmu dot edu)
 
 
 ## Overview
 This is the authors' implementation of Expression Training App described in:  
 Mirror Mirror: Crowdsourcing Better Portraits  
-Jun-Yan Zhu, Aseem Agarwala, Alexei A. Efros, Eli Shechtman and Jue Wang  
+[Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Aseem Agarwala](http://www.agarwala.org/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/) and [Jue Wang](https://www.juew.org/)  
 In ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2014)
 
 This App is used for training users to mimic their best expressions. The App takes input from a webcam/video and displays the current expression along with its attractiveness and seriousness scores, computed in real-time.  The user can specify a target expression to mimic. The App then shows three windows; the current expression, the target expression, and an aligned and a blended cross-fade between the two. The cross-fade oscillates between the target and current expression once per two seconds, so that the subject can examine differences between the two expressions. See Section 6 in the original paper for details.
